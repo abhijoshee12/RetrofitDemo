@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:inputType="textPersonName"
+        android:id="@+id/nname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/nname"
+        android:id="@+id/ndescription"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@+id/ndescription"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/myImg"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/myImg"
+        android:id="@+id/submit"/>
+
+</RelativeLayout>
