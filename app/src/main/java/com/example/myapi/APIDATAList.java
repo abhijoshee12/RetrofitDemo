@@ -65,7 +65,6 @@ public class APIDATAList extends AppCompatActivity {
                     }catch (Exception e){
                         Log.d("ExDDDD" ,""+e);
                     }
-
 //                    } else {
 //                        Log.d("MYDATA", "Response body is null or empty");
 //                    }
